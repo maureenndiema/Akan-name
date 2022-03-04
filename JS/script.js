@@ -31,6 +31,14 @@
 // }
 
 function display (){
- var maleNames = ["Kwasi", "Kudwo" "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
- var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];   
+ var maleNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];  
+ var dateofBirth = document.getElementById("date").value;
+ var male= document.getElementById("male").checked;
+ var female= document.getElementById("female").checked;
+ 
+     alert(dateofBirth);
+        
+ 
 }
+
