@@ -45,9 +45,7 @@ function display (){
  if(male == true)
      alert(centuryofBirth+"you have selected male");
  } elseif(female == true) {
-     alert(dateofBirth+"you have selected female");
-
-     
+     alert(dateofBirth+"you have selected female");   
  }
 }
 
