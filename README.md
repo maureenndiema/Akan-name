@@ -4,8 +4,8 @@ This is a web application that takes a user's birthday and calculates the day of
 #### By: **Maureen Ndiema**
 
 ## Description
-The Akan people are located along the coastal and central regions of Ghana,they name their children according to their tradition. The naming of the children is an important practice in all of the Akan traditions.
-There are; birthday names , family names, flora and fauna names just to name a few.The Akan people frequently name their children after the day of the week they were born and the order in which they were born,the names also have meanings concerning the soul and character of the person
+The Akan people are located along the coastal and central regions of Ghana,they name their children according to their traditions. The naming of the children is an important practice in all of the Akan traditions.
+children are named after;birthday names , family names, flora and fauna names just to name a few.The Akan people frequently name their children after the day of the week they were born and the order in which they were born,the names also have meanings concerning the soul and character of the person
 
 ## Setup/Installation Requirements
 * Have a stable internet connection
