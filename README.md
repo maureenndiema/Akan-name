@@ -10,10 +10,11 @@ children are named after;birthday names , family names, flora and fauna names ju
 ## Setup/Installation Requirements
 * Have a stable internet connection
 * have a phone or laptop
+* create a github account
 * open git hub account
 * git clone https://github.com/maureenndiema/Akan-name.git on your laptop
-* open Akan folder on 
-* Run the link on ther server and interact with the content
+* open Akan folder on VScode
+* Run the link on the server and interact with the content
 ## Known Bugs
 No known bugs
 ## Technologies Used
