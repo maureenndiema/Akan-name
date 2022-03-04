@@ -34,11 +34,20 @@ function display (){
  var maleNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];  
  var dateofBirth = document.getElementById("date").value;
- var male= document.getElementById("male").checked;
- var female= document.getElementById("female").checked;
- 
-     alert(dateofBirth);
-        
- 
+ var male = document.getElementById("male").checked;
+ var female = document.getElementById("female").checked; 
+ var centuryofBirth = parseInt(dateofBirth.slice(0,2));
+ var yearofBirth = parseInt(dateofBirth.slice(2,4));
+ var monthofBirth = parseInt(dateofBirth.slice(5,7));
+ var dayofBirth = parseInt(dateofBirth.slice(8,10));
+ var day= ( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7
+ //2022-03-12
+ if(male == true)
+     alert(centuryofBirth+"you have selected male");
+ } elseif(female == true) {
+     alert(dateofBirth+"you have selected female");
+
+     
+ }
 }
 
