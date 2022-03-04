@@ -18,36 +18,38 @@
         <br>
         Below is a form that can be used to generate your Akan birthday names.
     </p> 
+      <fieldset>
+        <form class="my form" onsubmit="return getAkanname()"></form>
+        <label for="year-of-birth">
+            Year:
+            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+        </label>
+        <label for="month-of-birth">
+         Month:
+         <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+        </label>
+        <label for="day-of-birth">
+         Day:
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+        </label>
+        <br>
+        <label for="gender">
+            <p>Select your gender: </p>
+        Male
+        <input id="male-input" type="radio" name="gender" value="male-input" required>
+        Female
+        <input id="female-input" type="radio" name="gender" value="female" required>
+        </label>
+        <br><br>
+        </form>
+        <form onsubmit="return submit()">
+        <input class="clear" type="submit" value="submit">
+        </form>
+    
+      </fieldset>
+    
 
-    <form class="my form" onsubmit="return getAkanname()"></form>
-    <label for="year-of-birth">
-        Year:
-        <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
-    </label>
-    <label for="month-of-birth">
-     Month:
-     <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
-    </label>
-    <label for="day-of-birth">
-     Day:
-        <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
-    </label>
-    <br>
-    <label for="gender">
-        <p>Select your gender: </p>
-    Male
-    <input id="male-input" type="radio" name="gender" value="male-input" required>
-    Female
-    <input id="female-input" type="radio" name="gender" value="female" required>
-    </label>
-    <br><br>
-    </form>
-    <form onsubmit="return submit()">
-    <input class="clear" type="submit" value="submit">
-    </form>
-
-
-    </div>
+    </div> 
     
     
   <script src="JS/script.js"></script>  
