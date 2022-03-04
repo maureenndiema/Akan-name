@@ -10,29 +10,45 @@
 <body>
     <div class="Description">
       <h1>Akan naming</h1>
+
     <p>The Akan people are located along the coastal and central regions of Ghana,they name their children according to their tradition. The naming of the children is an important practice in all of the Akan traditions.
         there are; birthday names , family names, flora and fauna names just to name a few.</p>
      <p>The Akan people frequently name their children after the day of the week they were born and the order in which they were born.
         the names also have meanings concerning the soul and character of the person.
         Attached is a form that can be used to generate your Akan birthday names.
     </p> 
+
+    <form class="my form" onsubmit="return getAkanname()"></form>
+    <label for="year-of-birth">
+        Year:
+        <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+    </label>
+    <label for="month-of-birth">
+     Month:
+     <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+    </label>
+    <label for="day-of-birth">
+     Day:
+        <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+    </label>
+    <br>
+    <label for="gender">
+        <p>Select your gender: </p>
+    Male
+    <input id="male-input" type="radio" name="gender" value="male-input" required>
+    Female
+    <input id="female-input" type="radio" name="gender" value="female" required>
+    </label>
+    <br><br>
+    </form>
+    <form onsubmit="return submit()">
+    <input class="clear" type="submit" value="submit">
+    </form>
+
+
     </div>
     
-    <style class="backgroundimage">
-
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        body {
-            background-image: url("/home/maureen/Documents/moringa-school-projects/Akan-names/images/akanbeach.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-            height: 200vh;   
-        }
-    </style>
+    
   <script src="JS/script.js"></script>  
 </body>
 </html>
