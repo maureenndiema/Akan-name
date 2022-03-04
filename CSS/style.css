@@ -9,7 +9,18 @@
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
-            color: green;
-            
+            color: green;   
         }
+        .Description {
+            color:green;
+            align-content: center;
+        }
+        fieldset {
+            background-color: rgb(4, 4, 94);
+            align-content: center;
+            border: 5rem;
+            padding: 5rem;
+            margin: 5rem;
+        }
+
     
