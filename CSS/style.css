@@ -9,7 +9,7 @@
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
-            color: green;   
+              
         }
         .Description {
             color:rgb(15, 14, 14);
@@ -18,13 +18,13 @@
             margin-left: 5.5cm;
         }
         
-        fieldset {
-            background-color: rgb(4, 4, 94);
-            align-content: center;
-            border: 5rem;
-            padding: 5rem;
-            margin: 5rem;
-            width: 50%;
-        }
-
+        
+ .myform {
+    height: 150px;
+   border: 1px solid;
+   width: 50%;
+   margin:auto;
+   margin-top: 20px;
+   background-color: blue;
+}
     

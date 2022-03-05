@@ -42,7 +42,7 @@ function display (){
  var dayofBirth = parseInt(dateofBirth.slice(8,10));
  var day= ( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7;
  //2022-03-12
-<<<<<<< HEAD
+
  if(male == true)
     alert(centuryofBirth+"you have selected male");
  } elseif(female == true)
@@ -53,7 +53,7 @@ function display (){
   var maleAkanNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var femaleAkanNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   //Business Logic
-   if (sexMale == true){
+   if (sexMale == true);{
     if(dayofTheWeek == 1){
         // alert(maleAkanNames[0] + dayofTheWeek [1])
         alert("You are male and you were born on Sunday");
@@ -72,7 +72,7 @@ function display (){
     }else {
         alert("Invalid Entry");
     }
-    elseif(sexFemale == true) {
+    elseif(sexFemale == true); {
     if(dayofTheWeek == 1){
         alert("You are female and you were born on Sunday");
     }else if(dayofTheWeek == 2){
@@ -93,7 +93,7 @@ function display (){
     }
 
     
-=======
+
  if(male == true){
      alert(centuryofBirth+"you have selected male");
  } elseif(female == true) 
@@ -101,4 +101,4 @@ function display (){
  }
 
 
->>>>>>> origin
+
