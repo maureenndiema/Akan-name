@@ -40,12 +40,12 @@ function display (){
  var yearofBirth = parseInt(dateofBirth.slice(2,4));
  var monthofBirth = parseInt(dateofBirth.slice(5,7));
  var dayofBirth = parseInt(dateofBirth.slice(8,10));
- var day= ( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7
+ var day= ( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7;
  //2022-03-12
- if(male == true)
+ if(male == true){
      alert(centuryofBirth+"you have selected male");
- } elseif(female == true) {
+ } elseif(female == true) 
      alert(dateofBirth+"you have selected female");   
  }
-}
+
 
