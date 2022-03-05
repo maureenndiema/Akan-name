@@ -54,7 +54,7 @@ function display (){
   var femaleAkanNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   //Business Logic
    if (sexMale == true);{
-    if(dayofTheWeek == 1){
+   if(dayofTheWeek == 1){
         // alert(maleAkanNames[0] + dayofTheWeek [1])
         alert("You are male and you were born on Sunday");
     }else if(dayofTheWeek == 2){
@@ -94,10 +94,7 @@ function display (){
 
     
 
- if(male == true){
-     alert(centuryofBirth+"you have selected male");
- } elseif(female == true) 
-     alert(dateofBirth+"you have selected female");   
+ 
  }
 
 
