@@ -31,8 +31,7 @@ Dial log box opens
 user logs in required credentials
 Akan name is displayes
 ### License
-<<<<<<< HEAD
 MIT License copyright 2022 
-=======
-MIT License copyright 2022 
->>>>>>> master
+
+
+
