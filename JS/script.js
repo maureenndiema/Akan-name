@@ -43,11 +43,52 @@ function display (){
  var day= ( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7
  //2022-03-12
  if(male == true)
-     alert(centuryofBirth+"you have selected male");
- } elseif(female == true) {
+    alert(centuryofBirth+"you have selected male");
+ } elseif(female == true)
      alert(dateofBirth+"you have selected female");
+ //Calculation to get the day of the week
+ var dayofTheWeek = parseInt(Math.ceil( ( (centuryofBirth/4) -2*centuryofBirth-1) + ((5*yearofBirth/4) ) + ((26*(monthofBirth+1)/10)) + dayofBirth)%7)
+ //Collection of female and male Akan names
+  var maleAkanNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  var femaleAkanNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  //Business Logic
+   if (sexMale == true){
+    if(dayofTheWeek == 1){
+        // alert(maleAkanNames[0] + dayofTheWeek [1])
+        alert("You are male and you were born on Sunday");
+    }else if(dayofTheWeek == 2){
+        alert("You are male and you were born on Monday"); 
+    }else if(dayofTheWeek == 3){
+        alert("You are male and you were born on Tuesday");
+    }else if(dayofTheWeek == 4){
+        alert("You are male and you were born on Wednesday");
+    }else if(dayofTheWeek == 5){
+        alert("You are male and you were born on Thursday");
+    }else if(dayofTheWeek == 6){
+        alert("You are male and you were born on Friday");
+    }else if(dayofTheWeek == 7){
+        alert("You are male and you were born on Saturday");
+    }else {
+        alert("Invalid Entry");
+    }
+    elseif(sexFemale == true) {
+    if(dayofTheWeek == 1){
+        alert("You are female and you were born on Sunday");
+    }else if(dayofTheWeek == 2){
+        alert("You are female and you were born on Monday");
+    }else if(dayofTheWeek == 3){
+        alert("You are female and you were born on Tuesday");
+    }else if(dayofTheWeek == 4){
+        alert("You are female and you were born on Wednesday");
+    }else if(dayofTheWeek == 5){
+        alert("You are female and you were born on Thursday");
+    }else if(dayofTheWeek == 6){
+        alert("You are female and you were born on Friday");
+    }else if(dayofTheWeek == 7){
+        alert("You are female and you were born on Saturday");
+    }else {
+        alert("Invalid Entry");
+    }
+    }
 
-     
- }
-}
-
+    
