@@ -12,8 +12,10 @@
             color: green;   
         }
         .Description {
-            color:white;
-            align-content: center;
+            color:rgb(15, 14, 14);
+            text-align: center;
+            margin-right: 5.5cm;
+            margin-left: 5.5cm;
         }
         fieldset {
             background-color: rgb(4, 4, 94);
